@@ -1,0 +1,10 @@
+.page-title {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+.article {
+    margin-bottom: 1em;
+    border-bottom: solid #aeaeae 1px;
+}
