@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>News API</title>
+    <link rel="stylesheet" type="text/css" href="">
+</head>
+
+<body>
+    <div id="app">
+        <h2>Name of News Sources for Gaming</h2>
+        <ul>
+            {% for item in gaming %}
+            <ol>
+                <a href="{{ item['url'] }}">Name: {{ item['name'] }}</a>
+            </ol>
+            {% endfor %}
+        </ul>
+    </div>
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
