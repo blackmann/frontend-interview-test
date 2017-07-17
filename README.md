@@ -8,7 +8,7 @@ Clicking on a link should transition to another page showing articles published 
 
 Clicking on the `url` should lead to the page containing the article
 
-Use any framework of your choice and submit a Pull Request when you're done
+Use any framework of your choice and submit a Pull Request when you're done. In submitting your pull request, create a new branch with your name 
 
 Preferable but not necessary: After you are done, display your work as a Github Page
 
