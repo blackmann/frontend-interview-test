@@ -1,0 +1,10 @@
+{% for item in gaming %}
+<ol>
+    <a href="{{ item['url'] }}">Name: {{ item['name'] }}</a>
+    {{ item['description'] }} 
+    <br>
+    {{ item['author'] }}
+    <!-- the rest-->
+</ol>
+{% endfor %}
+  
